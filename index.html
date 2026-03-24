@@ -3,26 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alex Ruiz | Computer Science Portfolio</title>
+    <title>Alex Ruiz Lopez | Software Engineering Portfolio</title>
     <meta
       name="description"
-      content="Portfolio of Alex Ruiz, third-year Computer Science/Engineering student at Universitat Pompeu Fabra."
+      content="Portfolio of Alex Ruiz Lopez, Computer Engineering student at Universitat Pompeu Fabra focused on software engineering, AI, graphics, and blockchain projects."
     />
+    <meta name="theme-color" content="#1e4d6b" />
+    <meta property="og:title" content="Alex Ruiz Lopez | Portfolio" />
+    <meta
+      property="og:description"
+      content="Computer Engineering student building practical software projects in AI, Unity, OpenGL, and blockchain."
+    />
+    <meta property="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=Space+Mono:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=IBM+Plex+Mono:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="noise" aria-hidden="true"></div>
+    <div class="bg-orb orb-a" aria-hidden="true"></div>
+    <div class="bg-orb orb-b" aria-hidden="true"></div>
 
     <header class="site-header">
       <a class="logo" href="#top" aria-label="Go to top">AR</a>
       <nav class="main-nav" aria-label="Main navigation">
         <a href="#about">About</a>
+        <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
@@ -31,53 +41,81 @@
 
     <main id="top">
       <section class="hero section-reveal">
-        <p class="eyebrow">Third-Year Student at Universitat Pompeu Fabra</p>
+        <p class="eyebrow">Universitat Pompeu Fabra | Computer Engineering</p>
         <h1>
-          Computer Science and Engineering student building practical software and
-          learning fast.
+          Building practical software across AI, game dev, graphics, and cloud
+          systems.
         </h1>
         <p class="hero-copy">
-          I am Alex Ruiz, currently focused on strong fundamentals, clean code,
-          and meaningful projects. This site is my public build log.
+          I am Alex Ruiz Lopez, a Barcelona-based student developer focused on
+          strong engineering fundamentals and team-driven projects. I enjoy taking
+          ideas from concept to working software.
         </p>
+        <ul class="hero-meta">
+          <li>Barcelona, Spain</li>
+          <li>Available for internships</li>
+          <li>English B2 | Spanish and Catalan native</li>
+        </ul>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#projects">See Projects</a>
-          <a class="btn btn-ghost" href="#contact">Get In Touch</a>
+          <a class="btn btn-ghost" href="Curriculum_AlexRuiz2026.pdf">Download CV</a>
         </div>
       </section>
 
       <section id="about" class="panel section-reveal">
         <h2>About</h2>
         <p>
-          I am a third-year Computer Science and Engineering student at
-          Universitat Pompeu Fabra. I enjoy solving technical problems with a
-          practical mindset and improving systems step by step.
+          I am currently studying Computer Engineering at Universitat Pompeu Fabra.
+          My coursework includes machine learning, computer graphics, software
+          engineering, databases, and theory of computation.
         </p>
         <p>
-          Right now I am building my portfolio and expanding experience across
-          software engineering topics. More achievements and details will be
-          added here as I continue learning.
+          I work well in collaborative teams and I am especially motivated by
+          hands-on projects where architecture, performance, and problem-solving
+          all matter.
         </p>
+      </section>
+
+      <section id="experience" class="panel section-reveal">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <p class="timeline-meta">Jul 2024 - Sep 2024 | Carrefour, Cabrera de Mar</p>
+            <h3>Gas Station Assistant</h3>
+            <p>
+              Customer support and station operations with a focus on reliability,
+              efficiency, and daily maintenance.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-meta">Family Business | Xurreria Menxu Bellavista</p>
+            <h3>Operations and Web Support</h3>
+            <p>
+              Produced and sold artisanal products while also designing and managing
+              the business website and online publishing.
+            </p>
+          </article>
+        </div>
       </section>
 
       <section id="skills" class="section-reveal">
         <h2>Skills</h2>
         <div class="skill-grid">
           <article class="skill-card">
-            <h3>Java</h3>
-            <p>Comfortable building object-oriented programs and algorithms.</p>
+            <h3>Programming</h3>
+            <p>C, C++, C#, Java, Python, Solidity</p>
           </article>
           <article class="skill-card">
-            <h3>C</h3>
-            <p>Experience with low-level programming and memory concepts.</p>
+            <h3>Tools and Platforms</h3>
+            <p>Git, GitHub, Linux (Ubuntu), Visual Studio Code, OpenGL, Unity</p>
           </article>
           <article class="skill-card">
-            <h3>C++</h3>
-            <p>Basic proficiency in core syntax and common data structures.</p>
+            <h3>Core Areas</h3>
+            <p>Algorithms, OOP, AI search, game mechanics, rendering pipelines</p>
           </article>
           <article class="skill-card">
-            <h3>More Coming</h3>
-            <p>This section is designed to grow with new tools and technologies.</p>
+            <h3>Soft Skills</h3>
+            <p>Teamwork, adaptability, resilience, quick learning</p>
           </article>
         </div>
       </section>
@@ -85,26 +123,72 @@
       <section id="projects" class="section-reveal">
         <div class="section-title-row">
           <h2>Projects</h2>
-          <span class="status-pill">In Progress</span>
+          <span class="status-pill">Selected Work</span>
         </div>
         <div class="project-grid">
           <article class="project-card">
-            <h3>Project Placeholder 01</h3>
+            <p class="project-year">2026</p>
+            <h3>Ethereum Smart Contracts</h3>
             <p>
-              Add a short summary of a project, your role, and what problem you
-              solved.
+              Built Solidity contracts for auction management in a 6-person team,
+              including bidding logic, transaction validation, state control, and
+              Sepolia test deployment.
             </p>
           </article>
           <article class="project-card">
-            <h3>Project Placeholder 02</h3>
+            <p class="project-year">2026</p>
+            <h3>ColdSkin - Unity Game</h3>
             <p>
-              Add links to code demos, repositories, or reports when available.
+              Developed a Unity and C# video game in a 4-person team with gameplay
+              mechanics, scene interaction, physics, UI, and animation integration.
             </p>
           </article>
           <article class="project-card">
-            <h3>Project Placeholder 03</h3>
+            <p class="project-year">2025</p>
+            <h3>Pacman AI Agent (Berkeley Project)</h3>
             <p>
-              Highlight technical choices, tradeoffs, and measurable outcomes.
+              Implemented DFS, BFS, A*, and Minimax with alpha-beta pruning in a
+              2-person team, plus custom heuristics for real-time decisions.
+            </p>
+          </article>
+          <article class="project-card">
+            <p class="project-year">2025</p>
+            <h3>OpenGL Graphics Engine</h3>
+            <p>
+              Implemented a basic render pipeline in C++ and GLSL 1.20, including
+              custom shaders, perspective camera, tangent calculations, and 3D
+              transforms.
+            </p>
+          </article>
+          <article class="project-card">
+            <p class="project-year">2024</p>
+            <h3>Virtualized Minecraft Server</h3>
+            <p>
+              Deployed and maintained a Linux server on Proxmox with plugin
+              management, authentication setup, Java compatibility fixes, memory
+              tuning, and security hardening.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel section-reveal">
+        <h2>Education and Training</h2>
+        <div class="edu-grid">
+          <article class="edu-card">
+            <h3>Universitat Pompeu Fabra</h3>
+            <p>Computer Engineering (ongoing, expected graduation 2027)</p>
+            <p class="muted">
+              Relevant coursework: Machine Learning, Computer Graphics, Object
+              Oriented Programming, Databases, Software Engineering.
+            </p>
+          </article>
+          <article class="edu-card">
+            <h3>Ciber 360 Training</h3>
+            <p>Cybersecurity fundamentals (2026)</p>
+            <p class="muted">
+              Incident handling, impact analysis, evidence workflows, and defensive
+              strategy basics.
             </p>
           </article>
         </div>
@@ -113,13 +197,13 @@
       <section id="contact" class="panel contact section-reveal">
         <h2>Contact</h2>
         <p>
-          Open to internships, collaborations, and technical conversations.
-          Replace the links below with your preferred contact channels.
+          Open to internships, collaborations, and software engineering
+          opportunities.
         </p>
         <ul class="contact-list">
-          <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
-          <li><a href="https://github.com/yourusername">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/your-linkedin">LinkedIn</a></li>
+          <li><a href="mailto:alex_ruiz_lopez@hotmail.es">alex_ruiz_lopez@hotmail.es</a></li>
+          <li><a href="tel:+34684329005">+34 684 329 005</a></li>
+          <li><a href="https://alexruiz0.github.io">alexruiz0.github.io</a></li>
         </ul>
       </section>
     </main>
