@@ -64,7 +64,7 @@ const Contact = () => {
                     'Accept': 'application/json'
                 },
                 body: JSON.stringify({
-                    access_key: 'd1e75f86-349a-42dd-9def-ee07fe3eb0bf',
+                    access_key: 'null',
                     subject: formData.subject,
                     name: formData.name,
                     email: formData.email,
